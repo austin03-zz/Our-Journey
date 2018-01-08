@@ -1,25 +1,24 @@
 //
-//  FirstViewController.swift
+//  FifthController.swift
 //  Our Journey
 //
-//  Created by Austin Elliott on 1/1/18.
+//  Created by Austin Elliott on 1/7/18.
 //  Copyright © 2018 Austin Elliott. All rights reserved.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class ComingSoonViewController: UIViewController {
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
 	}
-
+	
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
-
-
+	
+	
 }
-
