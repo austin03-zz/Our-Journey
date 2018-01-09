@@ -41,7 +41,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="icons8-home-25" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,7 +78,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Timeline" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Timeline" image="icons8-timeline-filled-25" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -94,7 +94,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="dOQ-q0-sk1"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Achievements" id="VkZ-yq-Qkb"/>
+                    <tabBarItem key="tabBarItem" title="Achievements" image="icons8-rating-25" id="VkZ-yq-Qkb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DMa-tc-MGL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -110,11 +110,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="PCu-im-ugc"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Music" id="t4g-JX-ETe"/>
+                    <tabBarItem key="tabBarItem" title="Music" image="icons8-musical-notes-25" id="t4g-JX-ETe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6FO-lA-QTk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="670"/>
+            <point key="canvasLocation" x="1649" y="689"/>
         </scene>
         <!--Coming Soon-->
         <scene sceneID="r22-Md-L7w">
@@ -126,11 +126,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Byq-LA-BCN"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Coming Soon" id="4yb-dG-nnR"/>
+                    <tabBarItem key="tabBarItem" title="Coming Soon" image="icons8-high-importance-25" id="4yb-dG-nnR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jEY-7s-Qyz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1649" y="670"/>
+            <point key="canvasLocation" x="750" y="689"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -155,7 +155,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="icons8-high-importance-25" width="25" height="25"/>
+        <image name="icons8-home-25" width="25" height="25"/>
+        <image name="icons8-musical-notes-25" width="25" height="25"/>
+        <image name="icons8-rating-25" width="25" height="25"/>
+        <image name="icons8-timeline-filled-25" width="25" height="25"/>
     </resources>
 </document>
