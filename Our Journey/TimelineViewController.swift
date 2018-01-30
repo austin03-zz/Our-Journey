@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  TimelineViewController.swift
 //  Our Journey
 //
 //  Created by Austin Elliott on 1/1/18.
