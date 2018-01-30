@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B71A0C1F200321A600BA2AB8 /* AchievementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71A0C1E200321A600BA2AB8 /* AchievementsViewController.swift */; };
 		B71A0C21200321F400BA2AB8 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71A0C20200321F400BA2AB8 /* MusicViewController.swift */; };
 		B71A0C232003222100BA2AB8 /* ComingSoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71A0C222003222100BA2AB8 /* ComingSoonViewController.swift */; };
 		B75B25891FFB1A920027ED4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75B25881FFB1A920027ED4E /* AppDelegate.swift */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B71A0C1E200321A600BA2AB8 /* AchievementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewController.swift; sourceTree = "<group>"; };
 		B71A0C20200321F400BA2AB8 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		B71A0C222003222100BA2AB8 /* ComingSoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonViewController.swift; sourceTree = "<group>"; };
 		B75B25851FFB1A910027ED4E /* Our Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Our Journey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,7 +106,6 @@
 				B75B25881FFB1A920027ED4E /* AppDelegate.swift */,
 				B75B258A1FFB1A920027ED4E /* HomeViewController.swift */,
 				B75B258C1FFB1A920027ED4E /* TimelineViewController.swift */,
-				B71A0C1E200321A600BA2AB8 /* AchievementsViewController.swift */,
 				B71A0C20200321F400BA2AB8 /* MusicViewController.swift */,
 				B71A0C222003222100BA2AB8 /* ComingSoonViewController.swift */,
 				B75B258E1FFB1A920027ED4E /* Main.storyboard */,
@@ -273,7 +270,6 @@
 				B75B258D1FFB1A920027ED4E /* TimelineViewController.swift in Sources */,
 				B75B25891FFB1A920027ED4E /* AppDelegate.swift in Sources */,
 				B7BDB6C7201529C300AFE23A /* MainTabController.swift in Sources */,
-				B71A0C1F200321A600BA2AB8 /* AchievementsViewController.swift in Sources */,
 				B71A0C232003222100BA2AB8 /* ComingSoonViewController.swift in Sources */,
 				B75B258B1FFB1A920027ED4E /* HomeViewController.swift in Sources */,
 				B71A0C21200321F400BA2AB8 /* MusicViewController.swift in Sources */,
