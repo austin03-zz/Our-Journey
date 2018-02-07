@@ -46,11 +46,16 @@ class HomeViewController: UIViewController {
 		
 		let dateComponentsElapsed = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: passDate!, to: Date())
 		
-		let  dateElapsed = Calendar.current.date(from: dateComponentsElapsed)
-		
-		let timeFormatter = DateFormatter()
-		timeFormatter.dateFormat = "yy:MM:dd hh:mm:ss"
-		
-		self.dateTimeLabel.text = timeFormatter.string(from: dateElapsed!)
+		self.dateTimeLabel.text = String(format: "%02d", dateComponentsElapsed.year!) +
+			":" +
+			String(format: "%02d", dateComponentsElapsed.month!) +
+			":" +
+			String(format: "%02d", dateComponentsElapsed.day!) +
+			" " +
+			String(format: "%02d", dateComponentsElapsed.hour!) +
+			":" +
+			String(format: "%02d", dateComponentsElapsed.minute!) +
+			":" +
+			String(format: "%02d", dateComponentsElapsed.second!)
 	}
 }
